@@ -49,4 +49,12 @@ footer ul li a img{
     top: 155rem;
     background-image: linear-gradient(#5c4c3c, #5c4c3c);
 }
+p{
+    position: absolute;
+    left: 12rem;
+    top: 45rem;
+    color: #1c1106;
+    width: 55rem;
+    font-size: medium;
+}
 }

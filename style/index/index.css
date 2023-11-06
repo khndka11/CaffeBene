@@ -24,14 +24,7 @@ h2{
     font-size: 6rem;
     color: #1c1106;
 }
-p{
-    position: absolute;
-    left: 12rem;
-    top: 45rem;
-    color: #1c1106;
-    width: 55rem;
-    font-size: medium;
-}
+
 .line {
     width: 55rem;
     height: 0.1rem;
