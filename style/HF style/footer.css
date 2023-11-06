@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1280px){
+    
+footer .line {
+    width: 300rem;
+    height: 0.3px;
+    position: relative;
+    background-color: #e2dad3;
+    top: 189.7rem;
+    left: -25rem;
+}
+ footer .logo-2 {
+    position: relative;
+    top: 190rem;
+    left: 10rem;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 10rem;
+ }
+ footer p {
+    position: relative;
+    top: 177rem;
+    left: 35rem;
+ }
+ footer iframe{
+    position: absolute;
+    left: 58rem;
+    width: 32rem;
+    height: 16rem;
+    border-radius: 1rem;
+    top: -27.9rem;
+ }
+ footer ul{
+    position: relative;
+    top: 166rem;
+    left: 82rem;
+} 
+footer li{
+    list-style: none;
+}
+footer ul li a img{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+}
+
+}
