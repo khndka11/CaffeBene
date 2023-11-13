@@ -3,6 +3,9 @@ font-size: 62%;
 font-family:  Serif, 'Source Sans Pro';
 font-weight: 400;
 }
+body{
+    width: 30%;
+}
 .logo{
     width: 100%;
     height: 70rem;
