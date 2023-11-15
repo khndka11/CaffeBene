@@ -81,7 +81,12 @@ article .special-2 {
  article .special-4 {
     left: 40rem;
  }
- 
+ .first_section article img{
+    object-fit: cover;
+ }
+ .first_section article img:hover {
+    transform: scaleY(1.1);
+ }
  .second_section{
     top: 90rem;
     position: absolute;
