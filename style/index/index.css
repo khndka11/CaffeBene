@@ -68,18 +68,18 @@ h2{
     top: 80rem;
 }
 article .special-1 {
-   left: 20rem;
+   left: 10rem;
 }
 article .special-2 {
-    left: 30rem;
+    left: 20rem;
  }
 
  article .special-3 {
-    left: 40rem;
+    left: 30rem;
  }
 
  article .special-4 {
-    left: 50rem;
+    left: 40rem;
  }
  
  .second_section{
@@ -90,20 +90,20 @@ article .special-2 {
     width: 24rem;
     height: 32rem;
     position: relative;
-    left: 90rem;  
+    left: 73rem;  
  }
  .second_section .hamtrah-2{
     width: 24rem;
     height: 32rem;
     position: relative;
-    left: 66rem;
+    left: 49rem;
     top: 40rem;    
  }
  .second_section .hamtrah-3{
     width: 26rem;
     height: 44rem;
     position: relative;
-    left: 70rem;
+    left: 53rem;
     top: 28rem;
  }
  
