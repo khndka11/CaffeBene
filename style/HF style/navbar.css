@@ -12,6 +12,10 @@ nav{
     position: absolute;
     background-image: linear-gradient(#5c4c3c, #5c4c3c);
 }
+.logo{
+    width: 24%;
+    position: relative;
+}
 nav ul{
     float: right;
     margin-top: 75px;
