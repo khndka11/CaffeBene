@@ -1,19 +1,16 @@
-* {
+@media only screen and (min-width: 1280px) {
+   * {
 font-size: 62%;
 font-family:  Serif, 'Source Sans Pro';
 font-weight: 400;
 }
 
-body{
-    width: 30%;
-}
-.logo{
+#visual{
     width: 100%;
-    height: 70rem;
+    height: 100%;
     position: absolute;
     top: 15rem;
 }
-
 h1 {
     position: absolute;
     left: 16rem;
@@ -41,8 +38,8 @@ h2{
     position: absolute;
     width: 8rem;
     height: 2.4rem;
-    left: 28rem;
-    top: 60rem;
+    left: 23%;
+    top: 100%;
     border-radius: 50px;
     border: 1px solid black;
     font-size: medium;
@@ -81,7 +78,12 @@ article .special-2 {
  article .special-4 {
     left: 40rem;
  }
- 
+ .first_section article img{
+    object-fit: cover;
+ }
+ .first_section article img:hover {
+    transform: scaleY(1.1);
+ }
  .second_section{
     top: 90rem;
     position: absolute;
@@ -106,4 +108,4 @@ article .special-2 {
     left: 53rem;
     top: 28rem;
  }
- 
+}

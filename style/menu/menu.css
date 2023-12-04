@@ -1,7 +1,11 @@
-* {
-    font-size: 62%;
+@media only screen and (min-width: 1280px) {
+    * {
+    font-size: 50%;
     font-family:  Serif, 'Source Sans Pro';
     font-weight: 400;
     }
-
-   
+     .icon img{
+        height: 30px;
+        width: 30px;
+     }
+}
