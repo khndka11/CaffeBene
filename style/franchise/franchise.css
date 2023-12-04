@@ -1,5 +1,14 @@
 * {
     font-size: 62%;
-    font-family:  Serif, 'Source Sans Pro';
+    font-family: Serif, 'Source Sans Pro';
     font-weight: 400;
-    }
+}
+
+.line {
+    width: 55rem;
+    height: 0.1rem;
+    position: absolute;
+    left: 12rem;
+    top: 40rem;
+    background-color: #55361a;
+}
