@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,14 +12,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
     <!--style-->
-    <link rel="stylesheet" href="style/HF style/navbar.css">
-    <link rel="stylesheet" href="style/HF style/footer.css">
+    <link rel="stylesheet" href="style/HFstyle/navbar.css">
+    <link rel="stylesheet" href="style/HFstyle/footer.css">
     <link rel="stylesheet" href="style/index/index.css">
 
     <!--mobile style-->
     <link rel="stylesheet" href="style/index/index.css">
-    <link rel="stylesheet" href="style/HF style/navbar.mobile.css">
-    <link rel="stylesheet" href="style/HF style/footer.mobile.css">
+    <link rel="stylesheet" href="style/HFstyle/navbar.mobile.css">
+    <link rel="stylesheet" href="style/HFstyle/footer.mobile.css">
     
     <!--javascript-->
    <script src="js/index/index.js"></script>
@@ -44,21 +44,22 @@
     <!-- main setcion -->
     <main id="main">
         <!-- 1 -->
-        <section id="visual">
+        <section id="section1">
             <div class="slider">
-                <img src="img/background01.jpg" alt="">
-                <img src="img/background02.jpg" alt="">
-                <img src="img/background03.jpg" alt="">
+                <img src="img/background01.jpg" alt="image-1">
+                <img src="img/background02.jpg" alt="image-2">
+                <img src="img/background03.jpg" alt="image-3">
             </div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
         </section>
         <h1>FRANCHISE</h1>
         <div class="line"></div>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <div class="button"><a href="menu.html">see more</a></div>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <button class="button"><a href="menu.html">see more</a></button>
       
         <!-- 2 -->
-        <section class="first_section">
+        <section id="section2">
             <article>
                 <img src="img/image-45.png" class="special-1">
             </article>
@@ -73,14 +74,14 @@
             </article>
         </section>
         <!-- 3 -->
-        <section class="second_section">
+        <section id="section3">
             <h2>Хамтарч ажиллах</h2>
             <div class="line"></div>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div class="button"><a href="franchise.html">see more</a></div>
+            <button class="button"><a href="franchise.html">see more</a></button>
             <img src="img/image-70.png" class="hamtrah-1">
             <img src="img/image-71.png" class="hamtrah-2">
             <img src="img/image-69.png" class="hamtrah-3">
@@ -91,18 +92,12 @@
         <div class="line"></div>
         <img src="img/image-9.png" class="logo-2">
         <p>
-            Caffe Bene Mongolia
-            <br/>
-            <br/>
-            ☎  75553000
-            <br/>
-            <br/>
-            Bldg 5, Hunnu 2222, Khoroo 18, Khan Uul, Ulaanbaatar 17011
+            Caffe Bene Mongolia <br/><br/> ☎  75553000 <br/> <br/>Bldg 5, Hunnu 2222, Khoroo 18, Khan Uul, Ulaanbaatar 17011
             </p>
             <ul>
-                <li><a href="https://www.instagram.com/caffebenemn/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img class="IG" src="img/ig.png"/></a></li>
-                <li><a href="https://twitter.com/caffebenemn"><img class="TW" src="img/tw.png"/></a></li>
-                <li><a href="https://www.facebook.com/CaffeBeneMN/"><img class="FB" src="img/fb.png"/></a></li>
+                <li><a href="https://www.instagram.com/caffebenemn/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="img/ig.png"/></a></li>
+                <li><a href="https://twitter.com/caffebenemn"><img src="img/tw.png"/></a></li>
+                <li><a href="https://www.facebook.com/CaffeBeneMN/"><img src="img/fb.png"/></a></li>
             </ul>
             <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21393.812376848866!2d106.91095463476562!3d47.91265379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smn!4v1699109206260!5m2!1sen!2smn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
             <div class="footer_line"></div>
