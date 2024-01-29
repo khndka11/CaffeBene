@@ -1,0 +1,227 @@
+{
+    "menu": [
+        {
+        "Coffee":[
+            {
+            "name": "Американо",
+            "price": "8900",
+            "image": "../img/Americano.png",
+            "id": "coffee1"
+            },
+            {
+            "name": "Карамель Маккиота",
+            "price": "8900",
+            "image":"../img/carameleMacchiato.png",
+            "id": "coffee2"
+            },
+            {
+            "name": "Керемтэй Эспрессо",
+            "price": "8900",
+            "image": "../img/creamEspresso.png",
+            "id": "coffee3"
+            },
+            {
+            "name": "Хөөстэй Эспрессо",
+            "price":"8900",
+            "image":"../img/foamEspresso.png",
+            "id": "coffee4"
+            },
+            {
+            "name":"Эспрессо",
+            "price": "8900",
+            "image":"../img/Espresso.png",
+            "id":"coffee5"        
+            },
+            {
+            "name":"Желато Эспрессо",
+            "price": "8900",
+            "image": "../img/GelatoEspresso.png",
+            "id":"coffee6"
+            },
+            {
+            "name": "Шоколадтай кофе",
+            "price":"8900",
+            "image":"../img/ChocoCoffee.png",
+            "id": "coffee7"
+            },
+            {
+            "name": "Цагаан шоколадтай кофе",
+            "price": "8900",
+            "image":"../img/whiteChocoCoffee.png",
+            "id":"coffee8"
+            },
+            {
+            "name":"Сүүтэй Кофе",
+            "price":"8900",
+            "image":"../img/milkCoffee.png",
+            "id":"coffee9"
+            },
+            {
+            "name":"Ваниль Латте",
+            "price":"8900",
+            "image":"../img/vanileLatte.png",
+            "id":"coffee10"
+            }
+
+        ]
+    },
+    {
+        "Beverages":[
+            {
+            "image": "../img/beverage-1.png",
+            "price": "7900",
+            "id": "beverage1"
+            },
+            {
+            "image": "../img/beverage-2.png",
+            "price":"7900",
+            "id":"beverage2"
+            },
+            {
+            "image":"../img/beverage3.png",
+            "price":"7900",
+            "id":"beverage3"
+            },
+            {
+            "image":"../img/beverage-4.png",
+            "price":"7900",
+            "id":"beverage4"
+            },
+            {
+            "image": "../img/beverage-5.png",
+            "price":"7900",
+            "id":"beverage5"
+            },
+            {
+            "image":"../img/beverage-6.png",
+            "price":"7900",
+            "id":"beverage6"
+            },
+            {
+            "image":"../img/beverage-7.png",
+            "price":"7900",
+            "id":"beverage7"
+            },
+            {
+            "image":"../img/beverage-8.png",
+            "price":"7900",
+            "id":"beverage8"
+            },
+            {
+            "image":"../img/beverage-9.png",
+            "price":"7900",
+            "id":"beverage9"
+            },
+            {
+            "image":"../img/beverage-10.png",
+            "price":"7900",
+            "id":"beverage10"
+            },
+            {
+            "image":"../img/beverage-11.png",
+            "price":"7900",
+            "id":"beverage11"
+            },
+            {
+            "image":"../img/beverage-12.png",
+            "price":"7900",
+            "id":"beverage12"
+            },
+            {
+            "image":"../img/beverage-13.png",
+            "price":"7900",
+            "id":"beverage13"
+            },
+            {
+            "image":"../img/beverage-14.png",
+            "price":"7900",
+            "id":"beverage14"
+            },
+            {
+            "image":"../img/beverage-15.png",
+            "price":"7900",
+            "id":"beverage15"
+            },
+            {
+            "image":"../img/beverage-16.png",
+            "price":"7900",
+            "id":"beverage16"
+            },
+            {
+            "image":"../img/beverage-17.png",
+            "price":"7900",
+            "id":"beverage17"
+            },
+            {
+            "image":"../img/beverage-18.png",
+            "price":"7900",
+            "id":"beverage18"
+            },
+            {
+            "image":"../img/beverage-19.png",
+            "price":"7900",
+            "id":"beverage19"
+            }
+       ]
+    },
+    {
+        "Dessert":[
+            {
+            "image":"../img/dessert-1.png",
+            "price":"7900",
+            "id":"dessert1"
+            },
+            {
+            "image":"../img/dessert-2.png",
+            "price":"7900",
+            "id":"dessert2"
+            },
+            {
+            "image": "../img/dessert-3.png",
+            "price":"7900",
+            "id": "dessert3"
+            },
+            {
+            "image":"../img/dessert-4.jpg",
+            "price":"7900",
+            "id":"dessert4"
+            },
+            {
+             "image":"../img/dessert-5.jpg",
+             "price":"7900",
+             "id":"dessert5"   
+            },
+            {
+            "image":"../img/dessert-6.jpg",
+            "price":"7900",
+            "id":"dessert6"
+            },
+            {
+            "image":"../img/dessert-7.jpg",
+            "price":"7900",
+            "id":"dessert7"
+            },
+            {
+            "image":"../img/dessert-8.jpg",
+            "price":"7900",
+            "id":"dessert8"
+            },
+            {
+            "image":"../img/dessert-9.jpg",
+            "price":"7900",
+            "id":"dessert9"
+            },
+            {
+            "image":"../img/dessert-10.jpg",
+            "price":"7900",
+            "id":"dessert10"
+            },
+            {
+            "image":"../img/dessert-11.jpg",
+            "price":"7900",
+            "id":"dessert11"
+            }
+        ]
+    }
+]
+}
