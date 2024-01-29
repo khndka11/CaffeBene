@@ -12,13 +12,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--style-->
-    <link rel="stylesheet" href="style/HF style/navbar.css">
-    <link rel="stylesheet" href="style/HF style/footer.css">
+    <link rel="stylesheet" href="style/HFstyle/navbar.css">
+    <link rel="stylesheet" href="style/HFstyle/footer.css">
     <link rel="stylesheet" href="style/menu/menu.css">
 
     <!--mobile style-->
-    <link rel="stylesheet" href="style/HF style/navbar.mobile.css">
-    <link rel="stylesheet" href="style/HF style/footer.mobile.css">
+    <link rel="stylesheet" href="style/HF/navbar.mobile.css">
+    <link rel="stylesheet" href="style/HFstyle/footer.mobile.css">
     <link rel="stylesheet" href="style/menu/menu.mobile.css">
     <!--javascript-->
    <script src="js/menu/menu.js"></script>
@@ -42,38 +42,34 @@
     
      <!--main setcion-->
     <main id="main">
+      
         <section id="sec1">
-            <ul>
-                <li class="home-icon"><a href="index.html"><img src="img/home icon.png"></a></li>
-                <li class="arrow"><img src="img/arrow.png"></li>
-                <li class="txt"><a href="menu.html"></a>Menu</li>
-            </ul>
-             </div>
+            <article class="menu-slide">
+                <img src="img/banner02.png" alt="">
+                <img src="img/banner01.jpg" alt="">
+                <img src="img/banner03.png" alt="">
+            </article>
+            <div class="line"></div>
+             <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
         </section>
         <section id="sec2">
-            <div class="menu-slide">
-                <img src="img/banner02.png" alt="">
-             </div>
-        </section>
-        <section id="sec3">
-            <div id="menu-btn">
+            <article>
                 <ul>
                     <li><a href="#">New Menu</a></li>
                     <li><a href="#">Coffee</a></li>
                     <li><a href="#">Beverages</a></li>
                     <li><a href="#">Dessert</a></li>
                 </ul>
-                <div class="cursor"></div>
-             </div>
+            </article>
         </section>
-        <section id="sec4">
-            <div id="menu-filter">
+        <section id="sec3">
+            <article>
                 <p>Espresso</p>
                 <p>Cold brew</p>
                 <p>Decaffein</p>
-             </div>
+            </article>
         </section>
-     
      <div class="line2"></div> 
     </main>
      
